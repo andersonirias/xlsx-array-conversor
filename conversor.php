@@ -1,7 +1,7 @@
 <?php
 
 $zip = new ZipArchive;
-$res = $zip->open('teste-tabela-exel.xlsx');
+$res = $zip->open('teste-tabela-excel.xlsx');
 
 if ($res === true) {
 	
